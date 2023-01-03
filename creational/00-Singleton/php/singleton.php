@@ -5,7 +5,7 @@ class Singleton {
 
   public static function getInstance() {
     if(self::$instance == null){
-      self::$instance = new Singleton()
+      self::$instance = new Singleton();
     }
     return self::$instance;
   }
@@ -26,4 +26,4 @@ class Singleton {
 $singleton = Singleton::getInstance();
 $s = Singleton::getInstance();
 
-$singleton == $s // true
+$singleton == $s; // true
