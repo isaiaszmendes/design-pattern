@@ -9,3 +9,10 @@ Conceitos básicos:
 * Context: quem recebe o Strategy
 * Strategy interface
 * Strategy concreta
+
+
+
+Open and close
+
+Uma classe deve estar sempre aberta pra extensão e fechada para alteração;
+
