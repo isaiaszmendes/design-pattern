@@ -11,4 +11,7 @@ Visão Geral:
   - Composição de vários objetos (composite)
   - Algoritmo de criação do objeto complexo
 * Permite a criação de um objeto em etapas
+* Permite method chaining
+* O objeto final pode variar de acordo com a necessidade
+* É um padrão complexo
 
